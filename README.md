@@ -37,6 +37,13 @@ The Playwright suite verifies desktop and mobile layout, a nonblank teapot canva
 
 ## GitHub Pages
 
-This project includes `.github/workflows/pages.yml` for GitHub Pages deployment. Before first publication, set the repository Pages source to GitHub Actions. The workflow builds with `BASE_PATH=/<repo>/` so Vite asset paths work for a project Pages URL.
+Live site: `https://eddyficial.github.io/teapot-motion-website/`
 
-Creating/pushing a public repository and first GitHub Pages deploy require explicit human approval in the Operynth loop.
+Repository: `https://github.com/eddyficial/teapot-motion-website`
+
+This project includes `.github/workflows/pages.yml` for GitHub Pages deployment. The workflow builds with `BASE_PATH=/<repo>/` so Vite asset paths work for a project Pages URL. Pushes to `main` deploy through GitHub Actions.
+
+Verified deployment evidence:
+
+- GitHub Actions run `28710572451` completed successfully.
+- Live smoke check returned HTTP 200 and the page body contained `Teapot Motion`.
